@@ -1,0 +1,349 @@
+---
+
+# 🜂 Dust Open Hardware License — Intelligence Edition (Strong Copyleft)
+
+**DOHL-IE-Strong v1.0 (Draft)**
+Copyright © Dust Contributors
+
+---
+
+# 0. Intent
+
+The **Dust Open Hardware License — Intelligence Edition (Strong)** exists to guarantee that:
+
+* Intelligent hardware remains open
+* Hardware + firmware + model stack remain reproducible
+* Intelligence systems cannot be converted into closed appliances
+* Contributors are protected from patent aggression
+* Commercial manufacture remains permitted
+* End-users retain sovereign control
+
+This is a **reciprocal, anti-enclosure, full-stack hardware copyleft license.**
+
+---
+
+# 1. Definitions
+
+### 1.1 Licensed Work
+
+Any hardware design files released under this License, including but not limited to:
+
+* Schematics
+* PCB layouts
+* Mechanical CAD
+* GDSII / mask layouts
+* Photonic or metamaterial layouts
+* HDL and gate definitions
+* Firmware interface specifications
+* Control plane definitions
+* Runtime binding contracts
+* Training acceleration designs
+
+---
+
+### 1.2 Intelligence Stack
+
+The full operational system required for the Licensed Work to perform its intelligent function, including:
+
+* Firmware
+* Embedded runtime
+* Device drivers
+* Model weights
+* Training configuration
+* Hardware calibration data
+* Inference pipeline definitions
+* Remote orchestration components
+
+---
+
+### 1.3 Corresponding Source
+
+The complete preferred form for making modifications to:
+
+* The Licensed Work
+* Any Derivative Hardware
+* The full Intelligence Stack
+* Any cloud component required for intelligent function
+
+---
+
+### 1.4 Derivative Hardware
+
+Any modification, extension, fabrication variant, mask spin, architecture enhancement, or embedded adaptation based on the Licensed Work.
+
+---
+
+# 2. Rights Granted
+
+Each Contributor grants You:
+
+### 2.1 Copyright License
+
+Perpetual, worldwide, royalty-free rights to:
+
+* Use
+* Study
+* Modify
+* Fabricate
+* Manufacture
+* Sell
+* Distribute
+
+the Licensed Work.
+
+---
+
+### 2.2 Patent License
+
+Each Contributor grants a perpetual, worldwide, royalty-free patent license covering:
+
+* Making
+* Using
+* Selling
+* Importing
+* Fabricating
+* Running
+
+the Licensed Work and Derivative Hardware.
+
+Patent retaliation clause applies (see Section 11).
+
+---
+
+# 3. Full-Stack Copyleft Requirement
+
+If You:
+
+* Manufacture hardware
+* Distribute fabricated silicon
+* Deploy devices
+* Sell intelligent hardware
+* Offer hardware-as-a-service
+* Offer cloud-bound intelligence dependent on Licensed Work
+
+You must provide:
+
+1. Complete Corresponding Source
+2. All modifications
+3. Full Intelligence Stack source
+4. Model weights used for intelligent function
+5. Training configuration required to reproduce weights
+6. Build scripts
+7. Calibration files
+8. Interface specifications
+
+This applies whether distribution is:
+
+* Physical
+* Digital
+* Cloud-based
+* Embedded
+* SaaS-like
+* Subscription-based
+
+---
+
+# 4. Anti-Tivoization Clause (Hardware Lockdown Prohibited)
+
+You may NOT:
+
+* Cryptographically prevent user firmware modification
+* Enforce signature locks that block modified firmware
+* Use secure boot to prevent user replacement
+* Lock calibration keys to manufacturer-only access
+* Restrict model replacement
+
+If secure boot is used:
+
+You must provide a mechanism for user-signed firmware execution.
+
+Hardware owners must retain modification authority.
+
+---
+
+# 5. Cloud Enclosure Prohibition
+
+If Licensed Hardware requires:
+
+* Remote inference
+* Remote training
+* Remote control-plane
+* Remote model execution
+
+You must provide:
+
+* Complete source for cloud components
+* Deployment instructions
+* Infrastructure-as-code templates
+* Configuration to run independently
+
+No cloud-only dependency may prevent sovereign use.
+
+---
+
+# 6. Model Weight Reciprocity Clause
+
+If model weights are necessary for intelligent function:
+
+* Weights must be provided
+* Training pipeline configuration must be provided
+* Any fine-tuned derivatives must be released
+* Weight format specifications must be open
+
+It is prohibited to:
+
+* Ship hardware locked to proprietary weights
+* Require proprietary remote weights
+* Obfuscate weight loading formats
+
+---
+
+# 7. Intelligence Sovereignty Guarantee
+
+End users must be able to:
+
+* Replace firmware
+* Replace models
+* Modify runtime
+* Inspect logic
+* Audit behavior
+* Reproduce build
+
+Any technical mechanism that prevents this violates this License.
+
+---
+
+# 8. Manufacturing Reciprocity
+
+If You fabricate silicon:
+
+You must release:
+
+* Mask layers
+* Layout files
+* Timing constraints
+* Power constraints
+* HDL
+* Synthesis constraints
+* Verification testbenches
+
+Sufficient for reproducibility by a competent engineer.
+
+---
+
+# 9. Derivative Licensing
+
+All Derivative Hardware must:
+
+* Be licensed under DOHL-IE-Strong
+* Preserve all terms
+* Include license text
+
+No dual licensing allowed that weakens copyleft.
+
+---
+
+# 10. Network Use Clause (AGPL-Style Extension)
+
+If the Licensed Work is used in a product that provides intelligent services over a network:
+
+Users interacting with that service must be able to:
+
+* Obtain full Corresponding Source
+* Obtain Intelligence Stack source
+* Obtain deployed model weights
+
+This closes the “service loophole.”
+
+---
+
+# 11. Patent Retaliation
+
+If You initiate patent litigation claiming Licensed Work infringes Your patent:
+
+Your rights under this License terminate immediately.
+
+---
+
+# 12. No Proprietary Extensions
+
+You may not:
+
+* Add proprietary extensions
+* Create closed accelerator modules
+* Add undisclosed inference pipelines
+* Hide calibration logic
+* Restrict fabrication reproducibility
+
+---
+
+# 13. No Warranty
+
+Provided “AS IS”.
+
+No liability for:
+
+* Hardware failure
+* AI behavior
+* Safety issues
+* Regulatory noncompliance
+
+---
+
+# 14. Termination & Cure
+
+Violation terminates rights automatically.
+
+Rights are reinstated if violation is cured within 30 days of notice.
+
+---
+
+# 15. Severability
+
+If any clause is invalid in a jurisdiction, remaining clauses remain in force.
+
+---
+
+# 16. Scope of Intended Application
+
+This License is designed for:
+
+* AI ASICs
+* Photonic processors
+* Hybrid quantum boards
+* Robotics hardware
+* Open accelerator silicon
+* Intelligence motherboards
+* Distributed inference clusters
+* Adaptive edge compute
+
+---
+
+# 17. Design Philosophy
+
+DOHL-IE-Strong enforces:
+
+* Open intelligence hardware
+* End-user sovereignty
+* Anti-enclosure
+* Reproducible fabrication
+* Open models
+* Patent non-aggression
+* Commercial freedom with reciprocity
+
+---
+
+# Summary of Strength vs Standard Hardware Licenses
+
+| Feature                      | CERN OHL-S | GPLv3     | DOHL-IE-Strong |
+| ---------------------------- | ---------- | --------- | -------------- |
+| Hardware Copyleft            | Yes        | Partial   | Yes            |
+| Patent Retaliation           | Limited    | Yes       | Strong         |
+| Anti-Tivoization             | Partial    | Yes       | Strong         |
+| Cloud Service Closure        | No         | AGPL only | Yes            |
+| Model Weight Reciprocity     | No         | No        | Yes            |
+| Training Pipeline Disclosure | No         | No        | Yes            |
+| Calibration Disclosure       | No         | No        | Yes            |
+| Intelligence Sovereignty     | No         | Partial   | Explicit       |
+
+---
