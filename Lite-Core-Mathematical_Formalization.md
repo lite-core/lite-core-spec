@@ -345,5 +345,5 @@ fn prop_mac_linearity() {
 
 ---
 
-**© 2026 Dust LLC. All rights reserved.**  
+**Copyright © 2026 Dust LLC. All rights reserved.**  
 **Released under Dust Open Hardware License.**
